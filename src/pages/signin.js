@@ -1,10 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import Signinbox from '../components/signinbox'
 const SigninPage = () => {
     return (
-        <div >
-         <h1>Hello SignIn</h1>   
-        </div>
+        <Signinbox />
+       
     )
 }
 
