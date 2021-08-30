@@ -1,10 +1,7 @@
 import styled from "styled-components";
 import {Link as LinkR} from 'react-router-dom';
-// import  {Link} from 'react-router-dom';
-// import Logotreadaa from '../images/whitelogo.png'
-// import importLogotreadaa from '../../images/whitelogo.png'
- export const Signincontainer=styled.div`
- background: #0c0c0c;
+export const Signincontainer=styled.div`
+background: #0c0c0c;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -74,18 +71,9 @@ align-items:center;
 export const Signpageheaderwrapperh=styled.h1`
 font-size:smaller;
 font-weight:200; 
+position: relative;
+left: 155px;
 `
-export const Signpageheaderlogo=styled.div`
-   z-index:3;
-   position:relative;
-   display:flex;
-   flex-direction: row;
-   height: 23px;
-   width: 22px;
-   left: 29px;
-    top: 7px;
-    align-items:center;   
-    `
 export const Signpagemiddlewrapper=styled.div`
 z-index:3;
 position:absolute;
@@ -99,9 +87,8 @@ position:absolute;
 `
 export const Signpagemiddlewrapperemaillabel=styled.div`
 padding-top: 9px;
-    padding-bottom: 8px;
-    
-    color: crimson;
+padding-bottom: 8px;
+color: hsl(0deg 0% 44%);
 
 `
 export const Signpagemiddlewrapperform=styled.form`
@@ -117,7 +104,7 @@ flex-direction: column;
 `
 
 export const Input = styled.input`
-border: 1.5px solid red;
+border: 1.5px solid hsl(0deg 0% 75%);
 
 /* outline-color: red; */
 outline: none;
@@ -201,6 +188,7 @@ font-size: 8px;
     position: absolute;
     top: 254px;
     text-align: center;
+    right:1.5px;
 
 `
 export const Signlastcontainer=styled.div`
