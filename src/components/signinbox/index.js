@@ -1,6 +1,4 @@
 import React from "react";
-import { BsBoxArrowInRight } from "react-icons/bs";
-import { IconContext } from "react-icons";
 import {
   Signincontainer,
   Signwrap,
@@ -8,7 +6,6 @@ import {
   Signpagecontainer,
   Signpageheaderwrapper,
   Signpageheaderwrapperh,
-  Signpageheaderlogo,
   Signpagemiddlewrapper,
   Signpagemiddlewrapperemaillabel,
   Signpagemiddlewrapperform,
@@ -38,13 +35,13 @@ const SigninPage = () => {
               <h1> Sign-In </h1>
             </Signpageheaderwrapperh>
 
-            <Signpageheaderlogo>
+            {/* {/* <Signpageheaderlogo>
               <IconContext.Provider
                 value={{ color: "blue", className: "global-class-name" }}
-              >
-                <BsBoxArrowInRight />
+              > */}
+                {/* <BsBoxArrowInRight />
               </IconContext.Provider>
-            </Signpageheaderlogo>
+            </Signpageheaderlogo> */} 
           </Signpageheaderwrapper>
           <Signpagemiddlewrapper>
             <Signpagemiddlewrapperform>
@@ -54,7 +51,6 @@ const SigninPage = () => {
               <Input
                 type="text"
                 size="49px"
-                placeholder="treadaa@gmail.com"
                 name="email"
               />
               <Signpagemiddlewrapperemaillabel>
@@ -63,8 +59,7 @@ const SigninPage = () => {
               <Input
                 type="text"
                 size="49px"
-                placeholder="treadaa@gmail.com"
-                name="email"
+                name="pssword"
               />
             </Signpagemiddlewrapperform>
             <Signpagemiddlewrapperlast>
