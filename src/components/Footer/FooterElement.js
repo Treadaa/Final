@@ -35,8 +35,8 @@ flex-directional:column;
 export const FooterLinkItems=styled.div`
 display:flex;
 flex-direction:column;
-align-items:center;
-margin:16px;
+align-items:flex-start;
+margin:25px;
 text-align:left;
 width:160px;
 box-sizing:border-box;
@@ -45,21 +45,21 @@ color:#fff;
 @media screen and (max-width:420px)
 {
     margin:0;
-    padding:10px;
+    padding:30px;
     width:100%;
 }
 `
 
 export const FooterLinkTitle=styled.h1`
 
-font-size:14px;
-margin-bottom:16px;
+font-size:19px;
+margin-bottom:30px;
 `
 
 export const FooterLink=styled(Link)`
 color:#fff;
 text-decoration:none;
-margin-bottom:0.5rem;
+margin-bottom:1.5rem;
 font-size:14px;
 
 &:hover{
@@ -90,25 +90,26 @@ color:#fff;
 justify-self:start;
 cursor:pointer;
 text-decoration:none;
-font-size:1.5rem;
+font-size:2.5rem;
 display:flex;
 align-items:center;
-margin-bottom:center;
+margin-bottom:16px;
 font-weight:bold;
 `
 
 export const WebsiteRights=styled.small`
 color:#fff;
-margin-bottom:16px
+font-size:1.1rem;
+margin-bottom:50px;
 `
 export const SocialIcons=styled.div`
 display:flex;
-justify-content:center;
+justify-content: space-between;
 align-items:center;
-width:240px;
+width:210px;
 `
 
 export const SocialIconLink=styled.a`
-color:#fff;
-font-size:24px;
+color:white;
+font-size:25px;
 `
