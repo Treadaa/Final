@@ -1,7 +1,7 @@
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import {FaFacebook,FaInstagram,FaLinkedin,FaYoutube} from 'react-icons/fa'
-import { FooterContainer, FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink,SocialIconLink,SocialIcons,SocialLogo,SocialMedia,SocialMediaWrap,WebsiteRights } from './FooterElement'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle,FooterLink,SocialIconLink,SocialIcons,SocialLogo,SocialMedia,SocialMediaWrap,WebsiteRights } from './FooterElement'
 const Footer = () => {
     const toggleHome=()=>{
         scroll.scrollToTop();
@@ -21,6 +21,8 @@ const Footer = () => {
                                 <FooterLink to='/signin'>Terms of Services</FooterLink>
                            
                         </FooterLinkItems>
+                        </FooterLinksWrapper>
+                        <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Video Tutorials </FooterLinkTitle>
                                
@@ -31,8 +33,8 @@ const Footer = () => {
                                 <FooterLink to='/signin'>Terms of Services</FooterLink>
                            
                         </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
+                        </FooterLinksWrapper>
+                        <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Contact Us </FooterLinkTitle>
                                
@@ -43,6 +45,8 @@ const Footer = () => {
                                 <FooterLink to='/signin'>Email</FooterLink>
                            
                         </FooterLinkItems>
+                        </FooterLinksWrapper>
+                        <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Social Media </FooterLinkTitle>
                                
@@ -54,6 +58,7 @@ const Footer = () => {
                            
                         </FooterLinkItems>
                     </FooterLinksWrapper>
+                
 
                 </FooterLinksContainer>
                 <SocialMedia>
@@ -61,7 +66,7 @@ const Footer = () => {
                         <SocialLogo to='/' onClick={toggleHome}>
                             Treadaa
                         </SocialLogo>
-                        <WebsiteRights>Treadaa @ {new Date().getFullYear()}All Rights reserved</WebsiteRights>
+                        <WebsiteRights>Treadaa © {new Date().getFullYear()} All Rights reserved</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='/' target='_blank' aria-label="Facebook">
                                 <FaFacebook/>
