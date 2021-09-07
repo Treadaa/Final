@@ -9,8 +9,8 @@ import { Nav,
     MobileIcon,
     NavMenu,
     NavLinks,
-    NavBtn,
-    NavBtnLink
+   // NavBtn,
+   // NavBtnLink
 } from './NavbarElement';
 import {FaBars } from 'react-icons/fa'
 
@@ -69,11 +69,11 @@ const Navbar = ({toggle}) => {
                        </NavLinks>
                    </NavItem>
                </NavMenu>
-               <NavBtn>
-                   {/* <NavBtnLink to='/signIn'>
+              {/* <NavBtn>
+                   <NavBtnLink to='/signIn'>
                     SignIn
-                   </NavBtnLink> */}
-               </NavBtn>
+                   </NavBtnLink>
+               </NavBtn> */}
            </NavbarContainer>
        </Nav>
        </>
