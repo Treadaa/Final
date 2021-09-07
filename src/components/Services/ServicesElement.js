@@ -5,7 +5,7 @@ import styled from "styled-components";
  flex-direction:column;
  justify-content:center;
  align-items:center;
- background:#010606;
+ background:#152b5a;
 
  @media scren and (max-width:768px){
 
