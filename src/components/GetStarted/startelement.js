@@ -67,7 +67,7 @@ height: auto;
 position: fixed;
 top: 0;
 left: 0;
-opacity:0.45;
+opacity:0.60;
 ` 
 export const GetH2=styled.h1`
 display:flex;
