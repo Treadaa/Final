@@ -19,7 +19,7 @@ transform:translate(20%,-20%);
 export const GetH1=styled.h1`
 display:flex;
 color:white;
-margin:162px 94px 28px -474px;
+margin:451px 94px 28px -474px;
 }
 
 
@@ -32,7 +32,7 @@ margin:162px 94px 28px -474px;
 
 `
 export const GetP=styled.p`
-display: block;
+    display: block;
     width: 615px;
     margin: 19px 24px 132px -560px;
     color:black;
@@ -107,6 +107,15 @@ export const Content1=styled.div`
 
 `
 export const Content2=styled.div`
+margin: 13px 11px 168px 1px;
+
+`
+export const Content3=styled.div`
+
+margin-top:-271px;
+
+`
+export const Content4=styled.div`
 margin: 13px 11px 168px 1px;
 
 `
