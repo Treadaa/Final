@@ -1,6 +1,13 @@
 import styled from "styled-components";
+import {MdKeyboardArrowRight,MdArrowForward} from 'react-icons/md';
+import { Link } from "react-router-dom"
 export const Container=styled.div`
+
+
 display:flex;
+postion:absolute;
+top:0;
+bottom:0;
 text-align:center;
 align-items:center;
 padding:12px 12px;
@@ -19,7 +26,7 @@ transform:translate(20%,-20%);
 export const GetH1=styled.h1`
 display:flex;
 color:white;
-margin:451px 94px 28px -474px;
+margin:503px 94px 28px -444px;
 }
 
 
@@ -35,7 +42,7 @@ export const GetP=styled.p`
     display: block;
     width: 615px;
     margin: 19px 24px 132px -560px;
-    color:black;
+    color:white;
     font-size:20px;
     height:-12px;
 }
@@ -61,13 +68,14 @@ min-width: 1024px;
   
 
 width: 100%;
-height: auto;
+height: 134px;
   
 
 position: fixed;
 top: 0;
 left: 0;
-opacity:0.60;
+bottom:0;
+
 ` 
 export const GetH2=styled.h1`
 display:flex;
@@ -89,7 +97,7 @@ margin: 205px 310px 9px 148px;
 export const GetP2=styled.p`
 display:block;
 width:615px;
-color:black;
+color:white;
 font-size:22px;
 margin:23px 149px 12px 12px;
 }
@@ -118,4 +126,43 @@ margin-top:-271px;
 export const Content4=styled.div`
 margin: 13px 11px 168px 1px;
 
+`
+export const Content5=styled.div`
+margin: 28px 36px 23px -593px;
+`
+
+export const ArrowForward=styled(MdArrowForward)`
+margin-left:8px;
+font-size:20px;
+`
+export const ArrowRight=styled(MdKeyboardArrowRight)`
+margin-left:8px;
+font-size:20px;
+`
+export const BtnWrapper=styled.div`
+margin-top:32px;
+display:flex;
+flex-direction:column;
+align-items:center; 
+
+`
+export const Button=styled(Link)`
+
+border-radius:50px;
+background: ${({primary})=>(primary ? '#94ada3' : '#010606')};
+white-space:nowrap;
+padding:${({big})=>(big ? '14px 48px': '12px 30px')};
+color:${({dark})=>(dark ?'#010606': '#010606')};
+font-size=${({fontBig})=>(fontBig ?'20px':'16px')};
+outline:none;
+border:none;
+text-decoration:none;
+cursor:pointer;
+display:flex;
+justify-content:center;
+transition: all 0.2s ease-in-out;
+ &:hover{
+     transition:all 0.2s ease-in-out;
+     background:${({primary})=>(primary ? '#fff' : '#01BF1')};
+ }
 `
