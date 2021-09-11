@@ -17,7 +17,7 @@ const HeroSection = () => {
 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Boom!...Something is coming in 2022</HeroH1>
+                <HeroH1>Boom!...Something is coming in 2022 and it will be great.</HeroH1>
                 <HeroP>Let's Explore and start the Pre-Registration Process of World's First Player Stock Exchange.
 
                 </HeroP>
