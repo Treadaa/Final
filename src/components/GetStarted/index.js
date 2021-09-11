@@ -35,9 +35,10 @@ const Index = () => {
          
             <Content>
                 <Content1>
-                <GetH1>What is Treadaa</GetH1>
+                <GetH1>What is Tredaa</GetH1>
+                
                 <GetP> "Platform Where Integrity of Sports,Stocks and Trade comes with value.
-                    The value is not what we think, value is what customer feeling said.You can Trade your value and can earn money to establish your future. Treadaa is a Platform where user intrest and emotions meet in a common direction. They will try to invest,think and innovate."
+                    The value  not what we think, value is what customer feeling said.You can Trade your value and can earn money to establish your future. Treadaa is a Platform where user intrest and emotions meet in a common direction. They will try to invest,think and innovate."
                 </GetP>
                </Content1>
                <Content2>
