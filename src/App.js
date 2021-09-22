@@ -6,6 +6,7 @@ import {BrowserRouter as Router ,Switch,Route  } from 'react-router-dom'
 import Home from './pages';
 import SigninPage from './pages/signin';
 import getStarted from './pages/getStarted';
+import IdeaPage from './components/IdeaPage'
 function App() {
   return (
     
@@ -14,6 +15,7 @@ function App() {
       <Route path='/' component={Home} exact />
       <Route path='/signIn' component={SigninPage} exact />
       <Route path='/getstarted' component={getStarted} exact/>
+      <Route path='/idea' component={IdeaPage} exact/>
     </Switch>
      
    </Router> 
