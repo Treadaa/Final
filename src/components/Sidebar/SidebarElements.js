@@ -36,12 +36,14 @@ export const SidebarWrapper=styled.div`
 color:#fff;
 
 
+
 `
 export const SidebarMenu=styled.ul`
 display:grid;
 grid-template-columns:1fr;
 grid-templates-rows:repeat(6,80px);
 text-align:center;
+padding: 8px 8px;
 @media screen and (max-width:480px){
     grid-templates-rows:repeat(6,80px);
 }
@@ -57,6 +59,7 @@ transition:0.2s ease-in-out;
 text-decoration:none;
 color:#fff;
 color:pointer;
+padding: 8px 8px;
 
 &:hover{
     color:#01bf71;
