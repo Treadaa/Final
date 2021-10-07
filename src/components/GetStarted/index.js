@@ -58,7 +58,7 @@ const Index = () => {
                 </Content5>
                 
                 <BtnWrapper>
-                    <Button to='/signin' onMouseEnter={onHover} 
+                    <Button to='/idea' onMouseEnter={onHover} 
                     
                     onMouseLeave={onHover}
                     primary='true'
