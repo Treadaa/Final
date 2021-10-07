@@ -9,7 +9,8 @@ import {
 } from '@react-spring/web'
 import './index.css'
 import data from './data'
-import styles from './styles.module.css'
+import styles from './styles.module.css';
+import {Row,Col } from "react-bootstrap"
 
 export default function App() {
   const [open, set] = useState(false)
@@ -51,11 +52,13 @@ export default function App() {
         className={styles.container}
         onClick={() => set(open => !open)}>          
         {transition((style,a) => (
+    
           <animated.div
-            className={styles.a}
+            className={`${styles.item}`}
             style={{ ...style, background: a.css }}
             
-          ></animated.div>
+          ><div className="idea">
+            <h1 >{a.name}</h1> </div></animated.div>
         ))}
         
       </animated.div>
