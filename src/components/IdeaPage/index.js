@@ -10,7 +10,7 @@ import {
 import './index.css'
 import data from './data'
 import styles from './styles.module.css';
-import {Row,Col } from "react-bootstrap"
+// import {Row,Col } from "react-bootstrap"
 
 export default function App() {
   const [open, set] = useState(false)

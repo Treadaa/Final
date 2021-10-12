@@ -12,7 +12,9 @@ export const homeObjOne={
     alt:'Trade',
     dark :true,
     primary:true,
-    darkText:false
+    darkText:false,
+    path:"idea"
+
 }
 
 export const homeObjTwo={
@@ -29,7 +31,8 @@ export const homeObjTwo={
     alt:'Trade',
     darks:false,
     primary:true,
-    darkText:true
+    darkText:true,
+    path:'explore'
 }
 export const homeObjThree={
     id:'services',
@@ -45,7 +48,8 @@ export const homeObjThree={
     alt:'Trade',
     dark :true,
     primary:true,
-    darkText:false
+    darkText:false,
+    path:'idea'
 }
 export const homeObjFour={
     id:'sign-up',
@@ -55,11 +59,12 @@ export const homeObjFour={
     topLine:`Personal and Private Account`,
     headline:`Pre-Register yourself for beautiful journey`,
     description:`Let's Register for the World's first PSE concept and get chance to win exciting Pre-Registration coupons.`,
-    buttonLabel:'Pre-process',
+    buttonLabel:'FAQ?',
     imgStart:true,
     img: require('../../images/svg-1.svg'),
     alt:'Trade',
     darks:false,
     primary:true,
-    darkText:true 
+    darkText:true,
+    path:'Faq'
 }

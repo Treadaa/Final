@@ -1,0 +1,14 @@
+.bg-image{
+    /* background-image: url("../../images/Image3.jpg"); */
+    height: '100vh';
+    position: 'fixed';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-Y: 'scroll';
+    background-Position: 'center';
+    background-Size: "cover";
+    background-Clip: "inherit";
+    color: 'white';
+}
