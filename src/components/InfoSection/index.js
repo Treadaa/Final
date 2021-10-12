@@ -3,7 +3,7 @@ import img from '../../images/svg-1.svg'
 import { Button } from '../ButtonElement';
 import { InfoContainer,InfoWrapper,InfoRow,Column1,Column2,ImgWrap,TextWrapper,TopLine,Heading,Subtitle,BtnWrap,Img } from './InfoElements';
 
-const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,alt,primary,dark,dark2 }) => {
+const InfoSection = ({path,lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,alt,primary,dark,dark2 }) => {
     return (
         <>
         <InfoContainer lightBg={lightBg} id={id} >
@@ -15,7 +15,7 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,de
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <BtnWrap>
-                            <Button to='idea'
+                            <Button to={path}
                             smooth={true}
                             duration={500}
                             spy={true}

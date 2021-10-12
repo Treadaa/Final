@@ -1,8 +1,9 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { animateScroll as scroll } from 'react-scroll'
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElement'
+import { FooterContainer, FooterWrap,FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElement'
 import {Row, Col} from "react-bootstrap"
 const Footer = () => {
     const toggleHome = () => {
