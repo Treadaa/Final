@@ -73,7 +73,7 @@ const Index = () => {
         
         <div className='container text-center' >
             <div className='row col-12'>
-                <div className='col-lg-6 col-md-12 col-xs-6 col-sm-12'>
+                <div className='col-lg-6 col-md-12 col-xs-6 col-sm-12' style={{color:#f1f1f5}}>
                     <div className='container-fuild py-4 '>
                         <h3 >What is Treadaa</h3>
                         <p>Platform Where Integrity of Sports,Stocks and Trade comes with value.
