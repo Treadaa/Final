@@ -25,7 +25,7 @@ transform:translate(20%,-20%);
 
 export const GetH1=styled.h1`
 display:flex;
-color:white;
+color:#f1f1f5;
 margin:503px 94px 28px -444px;
 }
 
@@ -42,7 +42,7 @@ export const GetP=styled.p`
     display: block;
     width: 615px;
     margin: 19px 24px 132px -560px;
-    color:white;
+    color:#f1f1f5;
     font-size:20px;
     height:-12px;
 }
@@ -80,7 +80,7 @@ bottom:0;
 export const GetH2=styled.h1`
 display:flex;
 margin: 209px 322px 11px 116px;
-color:white;
+color:#f1f1f5;
 font-size:48;
 text-align:center;
 margin: 205px 310px 9px 148px;
@@ -97,7 +97,7 @@ margin: 205px 310px 9px 148px;
 export const GetP2=styled.p`
 display:block;
 width:615px;
-color:white;
+color:#f1f1f5;
 font-size:22px;
 margin:23px 149px 12px 12px;
 }
