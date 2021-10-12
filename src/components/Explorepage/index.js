@@ -1,7 +1,7 @@
 import React from 'react'
 // import Planetone from'../../images/planet1'
 import { motion } from 'framer-motion'
-import Planettwo from'../../images/planet2.png'
+// import Planettwo from'../../images/planet2.png'
 import Planetone from '../../images/planet1.jpg'
 
 import{Section,Container,Columnleft,Columnright,Image} from './Exploreelement'
