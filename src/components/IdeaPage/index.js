@@ -40,7 +40,7 @@ export default function App() {
     0,
     open ? 0.1 : 0.6,
   ])
-  const a=data[5]
+  const a=data[7]
   console.log(a)
   return (
    
