@@ -70,7 +70,7 @@ const Index = () => {
 
         }}>
         
-        <div className='container text-center'style={{color:`wheat`}}>
+        <div className='container text-center'style={{color:`#d7dde3`}}>
             <div className='row col-12'>
                 <div className='col-lg-6 col-md-12 col-xs-6 col-sm-12'>
                     <div className='container-fuild py-4'>
