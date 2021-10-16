@@ -52,8 +52,8 @@ export const Image=styled(motion.img) `
 position:absolute;
 height:100%;
 width:100%;
-max-width:50%;
-max-height:25%;
+max-width:60%;
+max-height:55%;
 @media screen and (max-width:768px){
     width: 188px;
     height:135px;
